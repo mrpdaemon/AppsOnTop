@@ -24,7 +24,7 @@ function init(metadata) {
         throw new Error("Strange version number (extension.js:24).")
     
     switch (current_version[1]) {
-        case"5": global.log("Warning of extension [" + metadata.uuid + "]:\n",
+        case"5": global.log("Warning of extension [" + metadata.uuid + "]:\n" +
                             "              Development release detected (" +
                             Config.PACKAGE_VERSION +
                             "). Loading as a 3.6 release.\n") //eak
