@@ -1,0 +1,13 @@
+{
+  "description": "Move the Applications button at the top of the Dash.", 
+  "name": "Apps On Top", 
+  "shell-version": [
+    "3.5.90", 
+    "3.5.91", 
+    "3.5.92", 
+    "3.6"
+  ], 
+  "url": "https://github.com/Obsidien/AppsOnTop", 
+  "uuid": "AppsOnTop@obsidien.github.com", 
+  "version": 2
+}
