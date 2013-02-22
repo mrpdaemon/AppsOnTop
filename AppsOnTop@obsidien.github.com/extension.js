@@ -20,7 +20,7 @@ const Main   = imports.ui.main
 
 function init(metadata) {
     let current_version = Config.PACKAGE_VERSION.split('.')
-    if (current_version.length != 3 || current_version[0] != 3)
+    if (current_version.length > 4 || current_version[0] != 3)
         throw new Error("Strange version number (extension.js:24).")
     
     switch (current_version[1]) {
