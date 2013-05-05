@@ -29,6 +29,7 @@ function init(metadata) {
                             Config.PACKAGE_VERSION +
                             "). Loading as a 3.6 release.\n") //eak
         case"6": break
+        case"8": break
         default: throw new Error("Strange version number (extension.js:32).")
     }
 }
